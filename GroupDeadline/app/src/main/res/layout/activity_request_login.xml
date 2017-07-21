@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:weightSum="10"
+    >
+    <android.support.v4.widget.Space
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <Button
+        android:id="@+id/btnSignIn_Request"
+        android:text="@string/sign_in"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/btnsignin"
+        android:layout_weight="0.75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_weight="3.25"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/line_or"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <TextView
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:text="Or"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <TextView
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="Login with"
+                android:layout_marginRight="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:id="@+id/imgLoginFb"
+                android:layout_marginLeft="120dp"
+                android:src="@drawable/fb_icon"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/imgLoginGoogle"
+                android:layout_marginRight="120dp"
+                android:src="@drawable/google_icon"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txtSignUp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:text="@string/dont_have_account"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GroupDeadline</string>
+    <string name="dont_have_account">Dont have an account?Sign Up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_not_match">Password not match,Please check again!</string>
+    <string name="agree_with_our">You agreed with Movie Holic Terms of Use and Privacy Policy</string>
+    <string name="title_activity_sign_in">sign_in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="app_id">117626778861387</string>
+    <string name="empty_text">Bắt Buộc</string>
+    <string name="email_invaild">Email is invalid, Please check again!</string>
+    <string name="password_not_vail">Password must be 6 char</string>
+    <string name="password_not_correct">Email or Password not Correct</string>
+    <string name="email_not_register">Email is not registered or deleted</string>
+    <string name="loading">Loading...</string>
+    <string name="remind_close">Exit will cause loss of data you are typing!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="confirm_reset_password">Are you really to want to reset password this Email?</string>
+    <string name="register_successful">Register Successful, Please login to review your favorites Films!</string>
+    <string name="content_reset_password">Please enter your Email!</string>
+    <string name="notification_sent_email">We sent an email to yours,Please check to change your password!</string>
+</resources>
