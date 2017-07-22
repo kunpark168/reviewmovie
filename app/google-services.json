@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "632004806972",
+    "firebase_url": "https://moviereview-da1df.firebaseio.com",
+    "project_id": "moviereview-da1df",
+    "storage_bucket": "moviereview-da1df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632004806972:android:18f20c49932b786e",
+        "android_client_info": {
+          "package_name": "groupdeadline.com.moviereview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632004806972-oas7fhb1ls02jc6546vrm20n45cpoo1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdx1bcaC_OJpL0OQrSVQ4Pz3KjSPjWxJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

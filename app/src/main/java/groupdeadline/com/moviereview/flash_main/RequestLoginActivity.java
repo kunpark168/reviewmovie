@@ -6,8 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -45,6 +48,7 @@ public class RequestLoginActivity extends BaseActivity implements View.OnClickLi
     private FirebaseAuth mAụth;
     private LoginFacebook loginFacebook;
     private LoginGoogle loginGoogle;
+    private LinearLayout layoutMain;
     private GoogleApiClient mGoogleApiClient;
     private int RC_SIGN_IN= 002;
     @Override
@@ -68,6 +72,11 @@ public class RequestLoginActivity extends BaseActivity implements View.OnClickLi
         imgLoginGoogle = (ImageView) findViewById(R.id.imgLoginGoogle);
         btnSignIn = (Button) findViewById(R.id.btnSignIn_Request);
         txtSignUp = (TextView) findViewById(R.id.txtSignUp);
+        layoutMain = (LinearLayout) findViewById(R.id.layoutMain);
+
+        //Animation
+        Animation alpha = AnimationUtils.loadAnimation(this, R.anim.alpha_anim);
+        layoutMain.setAnimation(alpha);
 
         //Login Facebook
         loginManager = LoginManager.getInstance();

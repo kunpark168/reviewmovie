@@ -28,7 +28,8 @@
         <activity android:name=".flash_main.RequestLoginActivity" />
         <activity android:name=".sign_up.SignUpActivity" />
         <activity android:name=".sign_in.SignInActivity" />
-        <activity android:name=".reset_password.ResetPasswordActivity"></activity>
+        <activity android:name=".reset_password.ResetPasswordActivity" />
+        <activity android:name=".list_film.FilmListActivity"></activity>
     </application>
 
 </manifest>
